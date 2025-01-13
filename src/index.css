@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .treasureBox {
-    @apply relative top-24 z-10 h-[250px];
+    @apply relative top-16 z-10 h-[250px];
 }
 
 .blob1 {
-    @apply absolute top-20 left-4 scale-150 bg-no-repeat;
+    @apply absolute top-14 left-10 scale-150 bg-no-repeat rotate-[20deg];
     background-image: url('/blob1.1.svg');
     background-size: contain;
     height: 250px;
@@ -16,12 +16,13 @@
 }
 
 .blob2 {
-    @apply absolute top-32 right-1 scale-150 rotate-[230deg] bg-no-repeat;
+    @apply absolute top-24 right-0 scale-125 rotate-[200deg] bg-no-repeat;
     background-image: url('/blob2.2.svg');
     background-size: contain;
     height: 200px;
     width: 200px;
     z-index: 0; 
+    /* background-color: rgb(187, 81, 216,0.4); */
 }
 
 .coin {
