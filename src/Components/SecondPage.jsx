@@ -42,7 +42,7 @@ export default function SecondPage() {
                     className="w-11/12 m-5 bg-darkpurple-0 text-white h-16 rounded-xl"
                     onClick={(e) => {
                         e.preventDefault(); 
-                        navigate('/thirdpage'); 
+                        navigate('/welcome'); 
                     }}
                 >
                     Sign up

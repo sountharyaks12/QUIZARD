@@ -7,16 +7,16 @@
 }
 
 .blob1 {
-    @apply absolute top-14 left-10 scale-150 bg-no-repeat rotate-[20deg];
+    @apply absolute top-10 left-10 scale-150 bg-no-repeat rotate-[20deg];
     background-image: url('/blob1.1.svg');
     background-size: contain;
-    height: 250px;
+    height: 200px;
     width: 250px;
     z-index: 0.8
 }
 
 .blob2 {
-    @apply absolute top-24 right-0 scale-125 rotate-[200deg] bg-no-repeat;
+    @apply absolute top-16 right-20 scale-125 rotate-[200deg] bg-no-repeat;
     background-image: url('/blob2.2.svg');
     background-size: contain;
     height: 200px;
@@ -42,30 +42,40 @@
     background-size: cover;
 }
 
-.music {
-    background-image: url('/music1.png');
+.people {
+    background-image: url('/People.png');
+    background-repeat: no-repeat;
     height: 120px;
     width: 100px;
     background-position: center;
     background-size: contain;
 }
-.sports {
-    background-image: url('/sports1.png');
+.general {
+    background-image: url('/General.png');
+    background-repeat: no-repeat;
     height: 120px;
     width: 100px;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
-.design {
-    background-image: url('/design1.png');
+.land {
+    background-image: url('/Land.png');
     height: 120px;
     width: 100px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
-.chick {
-    background-image: url('/chick1.png');
+.culture {
+    background-image: url('/culture.png');
+    height: 120px;
+    width: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.heritage {
+    background-image: url('/Heritage.png');
     height: 120px;
     width: 100px;
     background-position: center;

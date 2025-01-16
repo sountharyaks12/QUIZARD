@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 const questions = [
     {
-        question: "How many wizards were killed in making of Uizard?",
-        options: ["None", "10", "50", "All of them"],
-        answer: "50",
+        question: "1. Name the businessman who brought the first car into Pahang?",
+        options: ["Loke Yew", "Tan Cheng Lock", "Yap Ah Loy", "Lim Goh Tong"],
+        answer: "Tan Cheng Lock",
     },
 ];
 
@@ -32,7 +32,7 @@ export default function FourthPage() {
 
     const checkAnswer = (selectedOption) => {
         if (selectedOption === questions[currentQuestion].answer) {
-            setScore((prev) => prev + .5);
+            setScore((prev) => prev + 1);
         }
         nextQuestion();
     };

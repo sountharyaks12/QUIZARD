@@ -10,9 +10,9 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<FirstPage />} />
-        <Route path="/secondpage" element={<SecondPage />} />
-        <Route path="/thirdpage" element={<ThirdPage />} />
-        <Route path="/fourthpage" element={<FourthPage />} />
+        <Route path="/signup" element={<SecondPage />} />
+        <Route path="/welcome" element={<ThirdPage />} />
+        <Route path="/quiz" element={<FourthPage />} />
       </Routes>
     </Router>
   );
