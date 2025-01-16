@@ -6,7 +6,7 @@ export default function FirstPage() {
 
     return (
         <div className="bg-darkpurple-0 h-screen font-rubik text-white relative">
-           <div className="flex justify-center items-center">
+           <div className="flex justify-center items-center pt-3">
             <img src='logo.png' alt="" height={200} width={300} />
            </div>
             <div className="flex justify-center items-center flex-wrap pt-4 px-20 text-center">

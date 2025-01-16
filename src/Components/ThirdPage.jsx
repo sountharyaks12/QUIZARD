@@ -21,7 +21,7 @@ export default function ThirdPage() {
                     </div>
                 </div>
             </div>
-            <div className="text-darkpurple-0">
+            {/* <div className="text-darkpurple-0">
                 <h1 className="font-bold m-2">Categories</h1>
                 <div className="flex justify-evenly text-center">
                     <div className="border-2 border-gray-400 rounded-xl px-5">
@@ -52,6 +52,33 @@ export default function ThirdPage() {
                         <h2>Heritage</h2>
                     </div>
                     <div></div>
+                </div>
+            </div> */}
+
+
+            <div className="text-darkpurple-0">
+                <h1 className="font-bold m-2">Categories</h1>
+                <div className="grid grid-cols-2 gap-4 text-center mt-4">
+                    <div className="border-2 border-gray-400 rounded-xl px-5">
+                        <div className="people" onClick={() => navigate('/quiz')}></div>
+                        <h2>People</h2>
+                    </div>
+                    <div className="border-2 border-gray-400 rounded-xl px-5">
+                        <div className="general"></div>
+                        <h2>General</h2>
+                    </div>
+                    <div className="border-2 border-gray-400 rounded-xl px-5">
+                        <div className="land"></div>
+                        <h2>Land</h2>
+                    </div>
+                    <div className="border-2 border-gray-400 rounded-xl px-5">
+                        <div className="culture"></div>
+                        <h2>Culture</h2>
+                    </div>
+                    <div className="border-2 border-gray-400 rounded-xl px-5">
+                        <div className="heritage"></div>
+                        <h2>Heritage</h2>
+                    </div>
                 </div>
             </div>
         </div>
